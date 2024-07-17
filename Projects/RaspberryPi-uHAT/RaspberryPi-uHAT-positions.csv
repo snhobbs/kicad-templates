@@ -1,0 +1,7 @@
+ref des,Val,Package,x,y,rotation,Side
+J1,GPIO,PinSocket_2x20_P2.54mm_Vertical,-24.13,10.23,-90,bottom
+BOARD,board,board,0,0,0,top
+MH1,MountingHole_2.7mm_M2.5,MountingHole_2.7mm_M2.5,29,-11.5,0,top
+MH2,MountingHole_2.7mm_M2.5,MountingHole_2.7mm_M2.5,29,11.5,0,top
+MH3,MountingHole_2.7mm_M2.5,MountingHole_2.7mm_M2.5,-29,-11.5,0,top
+MH4,MountingHole_2.7mm_M2.5,MountingHole_2.7mm_M2.5,-29,11.5,0,top

@@ -85,8 +85,8 @@
 		)
 		(pad_to_mask_clearance 0)
 		(allow_soldermask_bridges_in_footprints no)
-		(aux_axis_origin 100 100)
-		(grid_origin 100 100)
+		(aux_axis_origin 132.512 85.014)
+		(grid_origin 132.512 85.014)
 		(pcbplotparams
 			(layerselection 0x0000030_80000001)
 			(plot_on_all_layers_selection 0x0000000_00000000)
@@ -158,10 +158,9 @@
 	(net 30 "+5V")
 	(net 31 "+3V3")
 	(footprint "MountingHole:MountingHole_2.7mm_M2.5"
-		(locked yes)
 		(layer "F.Cu")
 		(uuid "0beff73c-ea66-46e4-96f9-c0c7195d2160")
-		(at 161.5 73.5)
+		(at 161.512 73.514)
 		(descr "Mounting Hole 2.7mm, no annular, M2.5")
 		(tags "mounting hole 2.7mm no annular m2.5")
 		(property "Reference" "MH2"
@@ -197,6 +196,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -209,6 +209,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -221,6 +222,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -267,11 +269,176 @@
 			(uuid "10ed1580-d80a-4b4c-810a-601e1b4614bd")
 		)
 	)
+	(footprint "Library:board"
+		(layer "F.Cu")
+		(uuid "5b785c48-2e0a-4e44-a063-b2643b59f476")
+		(at 132.512 85.014)
+		(property "Reference" "BOARD"
+			(at 0 -1.5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "92dfd628-1c78-4ef2-800d-51b761bf8bff")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "board"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b29bd61e-e762-4966-b2b7-fd68ec434156")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "Library:board"
+			(at -17.62132 -5.12132 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "99c81c85-cccd-4605-85dc-504e8c82cc5d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at -17.62132 -5.12132 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1d89e66d-e0db-46dc-be5f-1873386f975f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at -17.62132 -5.12132 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ea6dec0e-0056-414b-b071-84ee84dd2c94")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr board_only exclude_from_pos_files exclude_from_bom)
+		(fp_line
+			(start -32.5 -12)
+			(end -32.5 12)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "677c087a-7b8a-4932-9009-7b6df52990ff")
+		)
+		(fp_line
+			(start -29.5 15)
+			(end 29.5 15)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "50a0c468-0ebf-4892-9de7-40c5e58426bf")
+		)
+		(fp_line
+			(start 29.5 -15)
+			(end -29.5 -15)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "7450a67d-bf03-4d52-b4a5-00e577bc3fcc")
+		)
+		(fp_line
+			(start 32.5 12)
+			(end 32.5 -12)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "8c23e50f-7104-410d-b9fe-e268d40a5216")
+		)
+		(fp_arc
+			(start -32.5 -12)
+			(mid -31.62132 -14.12132)
+			(end -29.5 -15)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "636205de-b5b9-4c9d-accf-96ca9df602d2")
+		)
+		(fp_arc
+			(start -29.5 15)
+			(mid -31.62132 14.12132)
+			(end -32.5 12)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "4df746ce-c2a0-4298-a6a1-a9594ff27d52")
+		)
+		(fp_arc
+			(start 29.5 -15)
+			(mid 31.621306 -14.121306)
+			(end 32.5 -12)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "5688db43-3365-4da3-98cf-4c45595f8e83")
+		)
+		(fp_arc
+			(start 32.5 12)
+			(mid 31.621314 14.121314)
+			(end 29.5 15)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "0130eb8f-faeb-4cab-9b43-8abf5dc3df36")
+		)
+		(group ""
+			(uuid "b9ec5983-e423-4156-b9a6-cb5d33db1efd")
+			(members "0130eb8f-faeb-4cab-9b43-8abf5dc3df36" "1d89e66d-e0db-46dc-be5f-1873386f975f"
+				"4df746ce-c2a0-4298-a6a1-a9594ff27d52" "50a0c468-0ebf-4892-9de7-40c5e58426bf"
+				"5688db43-3365-4da3-98cf-4c45595f8e83" "636205de-b5b9-4c9d-accf-96ca9df602d2"
+				"677c087a-7b8a-4932-9009-7b6df52990ff" "7450a67d-bf03-4d52-b4a5-00e577bc3fcc"
+				"8c23e50f-7104-410d-b9fe-e268d40a5216" "92dfd628-1c78-4ef2-800d-51b761bf8bff"
+				"99c81c85-cccd-4605-85dc-504e8c82cc5d" "b29bd61e-e762-4966-b2b7-fd68ec434156"
+				"ea6dec0e-0056-414b-b071-84ee84dd2c94"
+			)
+		)
+	)
 	(footprint "MountingHole:MountingHole_2.7mm_M2.5"
-		(locked yes)
 		(layer "F.Cu")
 		(uuid "7e8d827e-a7ed-44d4-95fc-a91af7cef820")
-		(at 103.5 96.5)
+		(at 103.512 96.514)
 		(descr "Mounting Hole 2.7mm, no annular, M2.5")
 		(tags "mounting hole 2.7mm no annular m2.5")
 		(property "Reference" "MH3"
@@ -307,6 +474,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -319,6 +487,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -331,6 +500,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -378,10 +548,9 @@
 		)
 	)
 	(footprint "MountingHole:MountingHole_2.7mm_M2.5"
-		(locked yes)
 		(layer "F.Cu")
 		(uuid "89efe179-e83b-40db-abd4-3fc7739e57ac")
-		(at 103.5 73.5)
+		(at 161.512 96.514)
 		(descr "Mounting Hole 2.7mm, no annular, M2.5")
 		(tags "mounting hole 2.7mm no annular m2.5")
 		(property "Reference" "MH1"
@@ -417,6 +586,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -429,6 +599,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -441,6 +612,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -488,10 +660,9 @@
 		)
 	)
 	(footprint "MountingHole:MountingHole_2.7mm_M2.5"
-		(locked yes)
 		(layer "F.Cu")
 		(uuid "c5d6c104-5680-4140-a821-8340078f5018")
-		(at 161.5 96.5)
+		(at 103.512 73.514)
 		(descr "Mounting Hole 2.7mm, no annular, M2.5")
 		(tags "mounting hole 2.7mm no annular m2.5")
 		(property "Reference" "MH4"
@@ -527,6 +698,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -539,6 +711,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -551,6 +724,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -600,7 +774,7 @@
 	(footprint "Connector_PinSocket_2.54mm:PinSocket_2x20_P2.54mm_Vertical"
 		(layer "B.Cu")
 		(uuid "00000000-0000-0000-0000-00005a793e9f")
-		(at 108.37 74.77 -90)
+		(at 108.382 74.783999 -90)
 		(descr "Through hole straight socket strip, 2x20, 2.54mm pitch, double cols (from Kicad 4.0.7), script generated")
 		(tags "Through hole socket strip THT 2x20 2.54mm double row")
 		(property "Reference" "J1"
@@ -636,6 +810,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -648,6 +823,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -660,6 +836,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -837,7 +1014,7 @@
 			(uuid "e4b8f757-a1a9-4e26-a28e-6182e264f17b")
 		)
 		(fp_text user "${REFERENCE}"
-			(at -1.27 -24.13 180)
+			(at -1.27 -24.13 0)
 			(layer "B.Fab")
 			(uuid "e1d3c831-21e1-42d9-b59b-16727a480423")
 			(effects
@@ -1352,90 +1529,6 @@
 		(layer "Dwgs.User")
 		(uuid "5e402a36-e967-4e97-aadc-cb7fffb01a5a")
 	)
-	(gr_arc
-		(start 162 70)
-		(mid 164.12132 70.87868)
-		(end 165 73)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "Edge.Cuts")
-		(uuid "22a2f42c-876a-42fd-9fcb-c4fcc64c52f2")
-	)
-	(gr_line
-		(start 165 97)
-		(end 165 73)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "Edge.Cuts")
-		(uuid "28e9ec81-3c9e-45e1-be06-2c4bf6e056f0")
-	)
-	(gr_line
-		(start 100 73)
-		(end 100 97)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "Edge.Cuts")
-		(uuid "37914bed-263c-4116-a3f8-80eebeda652f")
-	)
-	(gr_arc
-		(start 103 100)
-		(mid 100.87868 99.12132)
-		(end 100 97)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "Edge.Cuts")
-		(uuid "8472a348-457a-4fa7-a2e1-f3c62839464b")
-	)
-	(gr_line
-		(start 103 100)
-		(end 162 100)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "Edge.Cuts")
-		(uuid "8a7173fa-a5b9-4168-a27e-ca55f1177d0d")
-	)
-	(gr_arc
-		(start 165 97)
-		(mid 164.12132 99.12132)
-		(end 162 100)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "Edge.Cuts")
-		(uuid "c7b345f0-09d6-40ac-8b3c-c73de04b41ce")
-	)
-	(gr_arc
-		(start 100 73)
-		(mid 100.87868 70.87868)
-		(end 103 70)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "Edge.Cuts")
-		(uuid "ccd65f21-b02e-4d31-b8df-11f6ca2d4d24")
-	)
-	(gr_line
-		(start 162 70)
-		(end 103 70)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "Edge.Cuts")
-		(uuid "fca60233-ea1e-489e-a685-c8fb6788f150")
-	)
 	(gr_text "Extend PCB edge 0.5mm if using SMT header"
 		(at 103 68.5 0)
 		(layer "Dwgs.User")
@@ -1462,6 +1555,7 @@
 	(zone
 		(net 0)
 		(net_name "")
+		(locked yes)
 		(layer "B.Cu")
 		(uuid "ab1c4aff-2e3b-49c6-ac2a-6145f3d7130f")
 		(name "PoE")
@@ -1486,6 +1580,13 @@
 			(pts
 				(xy 164 82.14) (xy 159 82.14) (xy 159 77.14) (xy 164 77.14)
 			)
+		)
+	)
+	(group "parts placer"
+		(uuid "546e89c3-029f-4b87-b991-6235714ca99a")
+		(members "00000000-0000-0000-0000-00005a793e9f" "0beff73c-ea66-46e4-96f9-c0c7195d2160"
+			"7e8d827e-a7ed-44d4-95fc-a91af7cef820" "89efe179-e83b-40db-abd4-3fc7739e57ac"
+			"c5d6c104-5680-4140-a821-8340078f5018"
 		)
 	)
 )
