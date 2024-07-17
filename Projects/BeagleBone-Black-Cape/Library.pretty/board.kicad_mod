@@ -1,0 +1,197 @@
+(footprint "board"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 2.48 -6.805 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "a3d1b553-1a8b-46ba-9f4d-ea546837f19b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "board"
+		(at 2.48 -5.305 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cfade886-4321-4cd9-8366-c25d7dc9bde1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 2.48 -6.305 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2c53d741-6fcc-45f4-ae42-9484d70d9ba1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 2.48 -6.305 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c0a4449f-6387-446a-b6fb-df101a72b330")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 2.48 -6.305 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8a7cf499-d359-483f-aa19-c56175b1d191")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -43.18 6.35)
+		(end -43.18 20.955)
+		(stroke
+			(width 0.00254)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "20734ac4-a9f5-4079-85d1-3c1af51caa7c")
+	)
+	(fp_line
+		(start -37.465 -27.305)
+		(end -37.465 -11.43)
+		(stroke
+			(width 0.00254)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "b946cead-2728-4021-847a-0142cdaa5faa")
+	)
+	(fp_line
+		(start -37.465 -11.43)
+		(end -22.86 -11.43)
+		(stroke
+			(width 0.00254)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "357c92dc-1565-47b8-8adc-c79454a61792")
+	)
+	(fp_line
+		(start -36.83 27.305)
+		(end 30.48 27.305)
+		(stroke
+			(width 0.00254)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "c9a7e513-982a-401b-8a47-3c6630985f4c")
+	)
+	(fp_line
+		(start -22.86 -11.43)
+		(end -22.86 6.35)
+		(stroke
+			(width 0.00254)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "9a0a2b62-0656-47b1-92ff-066d29b95d59")
+	)
+	(fp_line
+		(start -22.86 6.35)
+		(end -43.18 6.35)
+		(stroke
+			(width 0.00254)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "c6672d95-d504-4751-a779-8ab8e3492baf")
+	)
+	(fp_line
+		(start 30.48 -27.305)
+		(end -37.465 -27.305)
+		(stroke
+			(width 0.00254)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "442bd74c-de5a-4c86-9a1b-22238d9ebd9c")
+	)
+	(fp_line
+		(start 43.18 14.605)
+		(end 43.18 -14.605)
+		(stroke
+			(width 0.00254)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "213747aa-e4e7-4290-9b06-d1bc0d734f01")
+	)
+	(fp_arc
+		(start -36.83 27.305)
+		(mid -41.320128 25.445128)
+		(end -43.18 20.955)
+		(stroke
+			(width 0.00254)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "047e4d5f-b12e-4ff2-b783-0ffabdc15bf4")
+	)
+	(fp_arc
+		(start 30.48 -27.305)
+		(mid 39.460256 -23.585256)
+		(end 43.18 -14.605)
+		(stroke
+			(width 0.00254)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "bb2f9d24-6864-437f-8938-94f4e9eae773")
+	)
+	(fp_arc
+		(start 43.18 14.605)
+		(mid 39.460256 23.585256)
+		(end 30.48 27.305)
+		(stroke
+			(width 0.00254)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "91ba3b1b-4c92-4aea-8aa7-52d5e730e90d")
+	)
+	(group ""
+		(uuid "4e3fa7a3-0349-4def-9670-b1d6eb3b14e6")
+		(members "047e4d5f-b12e-4ff2-b783-0ffabdc15bf4" "20734ac4-a9f5-4079-85d1-3c1af51caa7c"
+			"213747aa-e4e7-4290-9b06-d1bc0d734f01" "2c53d741-6fcc-45f4-ae42-9484d70d9ba1"
+			"357c92dc-1565-47b8-8adc-c79454a61792" "442bd74c-de5a-4c86-9a1b-22238d9ebd9c"
+			"8a7cf499-d359-483f-aa19-c56175b1d191" "91ba3b1b-4c92-4aea-8aa7-52d5e730e90d"
+			"9a0a2b62-0656-47b1-92ff-066d29b95d59" "a3d1b553-1a8b-46ba-9f4d-ea546837f19b"
+			"b946cead-2728-4021-847a-0142cdaa5faa" "bb2f9d24-6864-437f-8938-94f4e9eae773"
+			"c0a4449f-6387-446a-b6fb-df101a72b330" "c6672d95-d504-4751-a779-8ab8e3492baf"
+			"c9a7e513-982a-401b-8a47-3c6630985f4c" "cfade886-4321-4cd9-8366-c25d7dc9bde1"
+		)
+	)
+)

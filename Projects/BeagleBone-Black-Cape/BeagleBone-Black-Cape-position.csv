@@ -1,0 +1,8 @@
+ref des,Val,Package,x,y,rotation,side
+P8,BeagleBone_Black_Header,PinHeader_2x23_P2.54mm_Vertical,-23.495,22.86,90,top
+P9,BeagleBone_Black_Header,PinHeader_2x23_P2.54mm_Vertical,-23.495,-25.4,90,top
+BOARD,board,board,0,0,0,top
+MH1,MountingHole_3.2mm_M3_DIN965,MountingHole_3.2mm_M3_DIN965,-28.575,24.13,0,top
+MH2,MountingHole_3.2mm_M3_DIN965,MountingHole_3.2mm_M3_DIN965,-28.575,-24.13,0,top
+MH3,MountingHole_3.2mm_M3_DIN965,MountingHole_3.2mm_M3_DIN965,37.465,20.955,0,top
+MH4,MountingHole_3.2mm_M3_DIN965,MountingHole_3.2mm_M3_DIN965,37.465,-20.955,0,top
