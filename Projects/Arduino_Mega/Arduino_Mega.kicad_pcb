@@ -76,8 +76,8 @@
 		)
 		(pad_to_mask_clearance 0)
 		(allow_soldermask_bridges_in_footprints no)
-		(aux_axis_origin 100 100)
-		(grid_origin 100 100)
+		(aux_axis_origin 150.7488 73.3046)
+		(grid_origin 150.7488 73.3046)
 		(pcbplotparams
 			(layerselection 0x0000030_80000001)
 			(plot_on_all_layers_selection 0x0000000_00000000)
@@ -196,10 +196,9 @@
 	(net 77 "/~{RESET}")
 	(net 78 "unconnected-(J1-Pin_1-Pad1)")
 	(footprint "Connector_PinSocket_2.54mm:PinSocket_2x18_P2.54mm_Vertical"
-		(locked yes)
 		(layer "F.Cu")
 		(uuid "00000000-0000-0000-0000-0000551afce5")
-		(at 193.98 92.38 180)
+		(at 193.98 92.354599 180)
 		(descr "Through hole straight socket strip, 2x18, 2.54mm pitch, double cols (from Kicad 4.0.7), script generated")
 		(tags "Through hole socket strip THT 2x18 2.54mm double row")
 		(property "Reference" "J7"
@@ -234,6 +233,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -246,6 +246,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -258,6 +259,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -854,10 +856,9 @@
 		)
 	)
 	(footprint "Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical"
-		(locked yes)
 		(layer "F.Cu")
 		(uuid "00000000-0000-0000-0000-0000551afcfc")
-		(at 127.94 97.46 90)
+		(at 127.939999 97.434599 90)
 		(descr "Through hole straight socket strip, 1x08, 2.54mm pitch, single row (from Kicad 4.0.7), script generated")
 		(tags "Through hole socket strip THT 1x08 2.54mm single row")
 		(property "Reference" "J1"
@@ -892,6 +893,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -904,6 +906,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -916,6 +919,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -1184,10 +1188,9 @@
 		)
 	)
 	(footprint "Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical"
-		(locked yes)
 		(layer "F.Cu")
 		(uuid "00000000-0000-0000-0000-0000551afd13")
-		(at 150.8 97.46 90)
+		(at 150.799999 97.434599 90)
 		(descr "Through hole straight socket strip, 1x08, 2.54mm pitch, single row (from Kicad 4.0.7), script generated")
 		(tags "Through hole socket strip THT 1x08 2.54mm single row")
 		(property "Reference" "J3"
@@ -1222,6 +1225,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -1234,6 +1238,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -1246,6 +1251,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -1514,10 +1520,9 @@
 		)
 	)
 	(footprint "Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical"
-		(locked yes)
 		(layer "F.Cu")
 		(uuid "00000000-0000-0000-0000-0000551afd2a")
-		(at 173.66 97.46 90)
+		(at 173.66 97.434599 90)
 		(descr "Through hole straight socket strip, 1x08, 2.54mm pitch, single row (from Kicad 4.0.7), script generated")
 		(tags "Through hole socket strip THT 1x08 2.54mm single row")
 		(property "Reference" "J5"
@@ -1552,6 +1557,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -1564,6 +1570,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -1576,6 +1583,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -1844,10 +1852,9 @@
 		)
 	)
 	(footprint "Connector_PinSocket_2.54mm:PinSocket_1x10_P2.54mm_Vertical"
-		(locked yes)
 		(layer "F.Cu")
 		(uuid "00000000-0000-0000-0000-0000551afd43")
-		(at 118.796 49.2 90)
+		(at 118.795999 49.1746 90)
 		(descr "Through hole straight socket strip, 1x10, 2.54mm pitch, single row (from Kicad 4.0.7), script generated")
 		(tags "Through hole socket strip THT 1x10 2.54mm single row")
 		(property "Reference" "J2"
@@ -1882,6 +1889,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -1894,6 +1902,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -1906,6 +1915,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -2196,10 +2206,9 @@
 		)
 	)
 	(footprint "Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical"
-		(locked yes)
 		(layer "F.Cu")
 		(uuid "00000000-0000-0000-0000-0000551afd5a")
-		(at 145.72 49.2 90)
+		(at 145.72 49.1746 90)
 		(descr "Through hole straight socket strip, 1x08, 2.54mm pitch, single row (from Kicad 4.0.7), script generated")
 		(tags "Through hole socket strip THT 1x08 2.54mm single row")
 		(property "Reference" "J4"
@@ -2234,6 +2243,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -2246,6 +2256,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -2258,6 +2269,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -2526,10 +2538,9 @@
 		)
 	)
 	(footprint "Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical"
-		(locked yes)
 		(layer "F.Cu")
 		(uuid "00000000-0000-0000-0000-0000551afd71")
-		(at 168.58 49.2 90)
+		(at 168.579999 49.1746 90)
 		(descr "Through hole straight socket strip, 1x08, 2.54mm pitch, single row (from Kicad 4.0.7), script generated")
 		(tags "Through hole socket strip THT 1x08 2.54mm single row")
 		(property "Reference" "J6"
@@ -2564,6 +2575,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -2576,6 +2588,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -2588,6 +2601,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -2856,10 +2870,9 @@
 		)
 	)
 	(footprint "Arduino_MountingHole:MountingHole_3.2mm"
-		(locked yes)
 		(layer "F.Cu")
 		(uuid "24dc01a2-0623-45f0-8a0c-38b379a55f5f")
-		(at 196.52 97.46)
+		(at 196.519999 97.434599)
 		(descr "Mounting Hole 3.2mm, no annular, M3")
 		(tags "mounting hole 3.2mm no annular m3")
 		(property "Reference" "MH6"
@@ -2895,6 +2908,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -2907,6 +2921,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -2919,6 +2934,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -2955,10 +2971,9 @@
 		)
 	)
 	(footprint "Arduino_MountingHole:MountingHole_3.2mm"
-		(locked yes)
 		(layer "F.Cu")
 		(uuid "6e571799-0217-4b63-970e-fdbb6a7139e3")
-		(at 115.24 49.2)
+		(at 115.239999 49.1746)
 		(descr "Mounting Hole 3.2mm, no annular, M3")
 		(tags "mounting hole 3.2mm no annular m3")
 		(property "Reference" "MH1"
@@ -2994,6 +3009,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -3006,6 +3022,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -3018,6 +3035,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -3054,10 +3072,9 @@
 		)
 	)
 	(footprint "Arduino_MountingHole:MountingHole_3.2mm"
-		(locked yes)
 		(layer "F.Cu")
 		(uuid "e37b79bf-98e8-4522-b749-f0e7c6a98bbc")
-		(at 113.97 97.46)
+		(at 113.97 97.434599)
 		(descr "Mounting Hole 3.2mm, no annular, M3")
 		(tags "mounting hole 3.2mm no annular m3")
 		(property "Reference" "MH2"
@@ -3093,6 +3110,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -3105,6 +3123,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -3117,6 +3136,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -3152,8 +3172,299 @@
 			(uuid "6f0b4be7-7fbe-4f52-90dc-4868f89dc6d2")
 		)
 	)
+	(footprint "Library:board"
+		(layer "F.Cu")
+		(uuid "e635b601-440b-45c8-8f62-fb27461db445")
+		(at 150.7488 73.3046)
+		(property "Reference" "BOARD"
+			(at 0 -0.5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "94883611-9728-4482-af31-fe614249dc24")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "board"
+			(at 0 1 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f37e3e37-294d-4adf-a353-6d2132e41f32")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "Library:board"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3c47402f-5c4c-4d84-9ad5-ce87232fb415")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f7883847-b4e8-4840-8c8b-36458dc90061")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "69b1f90c-d8fb-4d57-a6e5-810f5f2e0a19")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr board_only exclude_from_pos_files exclude_from_bom)
+		(fp_line
+			(start -57.2 -17.13)
+			(end -41.325 -17.13)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "ff79a8b7-d146-48ef-85d8-6800dace49c5")
+		)
+		(fp_line
+			(start -57.2 -5.7)
+			(end -57.2 -17.13)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "bf8ba0bc-9279-4013-ac60-5d33e2945f8c")
+		)
+		(fp_line
+			(start -52.755 14.62)
+			(end -39.42 14.62)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "74429dac-b8b0-44af-85f1-bb2fec82cb21")
+		)
+		(fp_line
+			(start -52.755 23.51)
+			(end -52.755 14.62)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "7d0bbf98-b5ff-41b9-b59f-abb7634ac878")
+		)
+		(fp_line
+			(start -41.325 -17.13)
+			(end -41.325 -5.7)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "82f1108e-339b-43ad-8583-3bc19b720eb1")
+		)
+		(fp_line
+			(start -41.325 -5.7)
+			(end -57.2 -5.7)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "a1e5dc7b-ed5d-4854-a990-57b0af5f2a51")
+		)
+		(fp_line
+			(start -39.42 14.62)
+			(end -39.42 23.51)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "77942444-a6cd-4150-b19e-4018818d0535")
+		)
+		(fp_line
+			(start -39.42 23.51)
+			(end -52.755 23.51)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "6deed73e-5ead-4baa-93dd-9c90742a8c6e")
+		)
+		(fp_line
+			(start -50.8 25.908)
+			(end -50.8 -25.908)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "56c856e7-b9f7-4b33-8d62-ded118516256")
+		)
+		(fp_line
+			(start -50.038 -26.67)
+			(end 45.72 -26.67)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "ad05b5ac-719f-4e26-bb6c-a30c55474489")
+		)
+		(fp_line
+			(start 45.72 -26.67)
+			(end 48.26 -24.13)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "c1f0ba0c-006f-4540-8513-a0291d0cc3fa")
+		)
+		(fp_line
+			(start 47.498 26.67)
+			(end -50.038 26.67)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "d7fbe39c-5c66-4d7d-b872-3eae55246575")
+		)
+		(fp_line
+			(start 48.26 -24.13)
+			(end 48.26 -13.97)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "82e40c0f-31a9-4d80-8de8-2bf4aea8097c")
+		)
+		(fp_line
+			(start 48.26 -13.97)
+			(end 50.8 -11.43)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "76697d1e-87f2-4656-9edb-888f8191c47a")
+		)
+		(fp_line
+			(start 48.26 25.4)
+			(end 48.26 25.908)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "2c56ffd8-b99f-4b31-9bfa-3194b89808e8")
+		)
+		(fp_line
+			(start 50.8 -11.43)
+			(end 50.8 22.86)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "df74129a-36de-4109-b6ec-055771619839")
+		)
+		(fp_line
+			(start 50.8 22.86)
+			(end 48.26 25.4)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "04fe3e6d-4f9e-4c43-80b5-0b29d6c3c390")
+		)
+		(fp_arc
+			(start -50.8 -25.908)
+			(mid -50.576815 -26.446815)
+			(end -50.038 -26.67)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "63602c43-2e10-4977-a694-1dd1167fa2d2")
+		)
+		(fp_arc
+			(start -50.038 26.67)
+			(mid -50.576815 26.446815)
+			(end -50.8 25.908)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "f7bac383-adad-4805-9031-6d6a8707faad")
+		)
+		(fp_arc
+			(start 48.26 25.908)
+			(mid 48.036815 26.446815)
+			(end 47.498 26.67)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "436e4cf6-b1e3-4b4f-9020-5b89124163c3")
+		)
+		(group ""
+			(uuid "4cd70f12-b1f3-4ba3-9954-7e7d21791a51")
+			(members "6deed73e-5ead-4baa-93dd-9c90742a8c6e" "74429dac-b8b0-44af-85f1-bb2fec82cb21"
+				"77942444-a6cd-4150-b19e-4018818d0535" "7d0bbf98-b5ff-41b9-b59f-abb7634ac878"
+				"82f1108e-339b-43ad-8583-3bc19b720eb1" "a1e5dc7b-ed5d-4854-a990-57b0af5f2a51"
+				"bf8ba0bc-9279-4013-ac60-5d33e2945f8c" "ff79a8b7-d146-48ef-85d8-6800dace49c5"
+			)
+		)
+		(group ""
+			(uuid "ab84d410-1eb1-41b0-b275-8451ffe9f163")
+			(members "04fe3e6d-4f9e-4c43-80b5-0b29d6c3c390" "2c56ffd8-b99f-4b31-9bfa-3194b89808e8"
+				"436e4cf6-b1e3-4b4f-9020-5b89124163c3" "56c856e7-b9f7-4b33-8d62-ded118516256"
+				"63602c43-2e10-4977-a694-1dd1167fa2d2" "76697d1e-87f2-4656-9edb-888f8191c47a"
+				"82e40c0f-31a9-4d80-8de8-2bf4aea8097c" "ad05b5ac-719f-4e26-bb6c-a30c55474489"
+				"c1f0ba0c-006f-4540-8513-a0291d0cc3fa" "d7fbe39c-5c66-4d7d-b872-3eae55246575"
+				"df74129a-36de-4109-b6ec-055771619839" "f7bac383-adad-4805-9031-6d6a8707faad"
+			)
+		)
+	)
 	(footprint "Arduino_MountingHole:MountingHole_3.2mm"
-		(locked yes)
 		(layer "F.Cu")
 		(uuid "e9ebf119-598a-41fd-98be-2dbed0b47309")
 		(at 166.04 64.44)
@@ -3192,6 +3503,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -3204,6 +3516,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -3216,6 +3529,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -3252,7 +3566,6 @@
 		)
 	)
 	(footprint "Arduino_MountingHole:MountingHole_3.2mm"
-		(locked yes)
 		(layer "F.Cu")
 		(uuid "ee2daf16-2f42-4829-9824-10ca9836b9cd")
 		(at 166.04 92.38)
@@ -3291,6 +3604,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -3303,6 +3617,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -3315,6 +3630,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -3351,10 +3667,9 @@
 		)
 	)
 	(footprint "Arduino_MountingHole:MountingHole_3.2mm"
-		(locked yes)
 		(layer "F.Cu")
 		(uuid "f9b2a7ff-484c-463d-8b77-bd1c6dfdf012")
-		(at 190.17 49.2)
+		(at 190.17 49.1746)
 		(descr "Mounting Hole 3.2mm, no annular, M3")
 		(tags "mounting hole 3.2mm no annular m3")
 		(property "Reference" "MH5"
@@ -3390,6 +3705,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -3402,6 +3718,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -3414,6 +3731,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -3449,30 +3767,9 @@
 			(uuid "25609960-f137-4ad0-8f6d-69efbaccdf22")
 		)
 	)
-	(gr_line
-		(start 98.095 96.825)
-		(end 98.095 87.935)
-		(stroke
-			(width 0.15)
-			(type solid)
-		)
-		(layer "Dwgs.User")
-		(uuid "53e4740d-8877-45f6-ab44-50ec12588509")
-	)
-	(gr_line
-		(start 111.43 96.825)
-		(end 98.095 96.825)
-		(stroke
-			(width 0.15)
-			(type solid)
-		)
-		(layer "Dwgs.User")
-		(uuid "556cf23c-299b-4f67-9a25-a41fb8b5982d")
-	)
 	(gr_rect
 		(start 162.357 68.25)
 		(end 167.437 75.87)
-		(locked yes)
 		(stroke
 			(width 0.15)
 			(type solid)
@@ -3480,189 +3777,6 @@
 		(fill none)
 		(layer "Dwgs.User")
 		(uuid "58ce2ea3-aa66-45fe-b5e1-d11ebd935d6a")
-	)
-	(gr_line
-		(start 98.095 87.935)
-		(end 111.43 87.935)
-		(stroke
-			(width 0.15)
-			(type solid)
-		)
-		(layer "Dwgs.User")
-		(uuid "77f9193c-b405-498d-930b-ec247e51bb7e")
-	)
-	(gr_line
-		(start 93.65 67.615)
-		(end 93.65 56.185)
-		(stroke
-			(width 0.15)
-			(type solid)
-		)
-		(layer "Dwgs.User")
-		(uuid "886b3496-76f8-498c-900d-2acfeb3f3b58")
-	)
-	(gr_line
-		(start 111.43 87.935)
-		(end 111.43 96.825)
-		(stroke
-			(width 0.15)
-			(type solid)
-		)
-		(layer "Dwgs.User")
-		(uuid "92b33026-7cad-45d2-b531-7f20adda205b")
-	)
-	(gr_line
-		(start 109.525 56.185)
-		(end 109.525 67.615)
-		(stroke
-			(width 0.15)
-			(type solid)
-		)
-		(layer "Dwgs.User")
-		(uuid "bf6edab4-3acb-4a87-b344-4fa26a7ce1ab")
-	)
-	(gr_line
-		(start 93.65 56.185)
-		(end 109.525 56.185)
-		(stroke
-			(width 0.15)
-			(type solid)
-		)
-		(layer "Dwgs.User")
-		(uuid "da3f2702-9f42-46a9-b5f9-abfc74e86759")
-	)
-	(gr_line
-		(start 109.525 67.615)
-		(end 93.65 67.615)
-		(stroke
-			(width 0.15)
-			(type solid)
-		)
-		(layer "Dwgs.User")
-		(uuid "fde342e7-23e6-43a1-9afe-f71547964d5d")
-	)
-	(gr_line
-		(start 199.06 59.36)
-		(end 201.6 61.9)
-		(stroke
-			(width 0.15)
-			(type solid)
-		)
-		(layer "Edge.Cuts")
-		(uuid "14983443-9435-48e9-8e51-6faf3f00bdfc")
-	)
-	(gr_line
-		(start 100 99.238)
-		(end 100 47.422)
-		(stroke
-			(width 0.15)
-			(type solid)
-		)
-		(layer "Edge.Cuts")
-		(uuid "16738e8d-f64a-4520-b480-307e17fc6e64")
-	)
-	(gr_line
-		(start 201.6 61.9)
-		(end 201.6 96.19)
-		(stroke
-			(width 0.15)
-			(type solid)
-		)
-		(layer "Edge.Cuts")
-		(uuid "58c6d72f-4bb9-4dd3-8643-c635155dbbd9")
-	)
-	(gr_line
-		(start 198.298 100)
-		(end 100.762 100)
-		(stroke
-			(width 0.15)
-			(type solid)
-		)
-		(layer "Edge.Cuts")
-		(uuid "63988798-ab74-4066-afcb-7d5e2915caca")
-	)
-	(gr_line
-		(start 100.762 46.66)
-		(end 196.52 46.66)
-		(stroke
-			(width 0.15)
-			(type solid)
-		)
-		(layer "Edge.Cuts")
-		(uuid "6fef40a2-9c09-4d46-b120-a8241120c43b")
-	)
-	(gr_arc
-		(start 100.762 100)
-		(mid 100.223185 99.776815)
-		(end 100 99.238)
-		(stroke
-			(width 0.15)
-			(type solid)
-		)
-		(layer "Edge.Cuts")
-		(uuid "814cca0a-9069-4535-992b-1bc51a8012a6")
-	)
-	(gr_line
-		(start 201.6 96.19)
-		(end 199.06 98.73)
-		(stroke
-			(width 0.15)
-			(type solid)
-		)
-		(layer "Edge.Cuts")
-		(uuid "93ebe48c-2f88-4531-a8a5-5f344455d694")
-	)
-	(gr_line
-		(start 196.52 46.66)
-		(end 199.06 49.2)
-		(stroke
-			(width 0.15)
-			(type solid)
-		)
-		(layer "Edge.Cuts")
-		(uuid "a1531b39-8dae-4637-9a8d-49791182f594")
-	)
-	(gr_arc
-		(start 199.06 99.238)
-		(mid 198.836815 99.776815)
-		(end 198.298 100)
-		(stroke
-			(width 0.15)
-			(type solid)
-		)
-		(layer "Edge.Cuts")
-		(uuid "b69d9560-b866-4a54-9fbe-fec8c982890e")
-	)
-	(gr_line
-		(start 199.06 49.2)
-		(end 199.06 59.36)
-		(stroke
-			(width 0.15)
-			(type solid)
-		)
-		(layer "Edge.Cuts")
-		(uuid "e462bc5f-271d-43fc-ab39-c424cc8a72ce")
-	)
-	(gr_line
-		(start 199.06 98.73)
-		(end 199.06 99.238)
-		(stroke
-			(width 0.15)
-			(type solid)
-		)
-		(layer "Edge.Cuts")
-		(uuid "ea66c48c-ef77-4435-9521-1af21d8c2327")
-	)
-	(gr_arc
-		(start 100 47.422)
-		(mid 100.223185 46.883185)
-		(end 100.762 46.66)
-		(stroke
-			(width 0.15)
-			(type solid)
-		)
-		(layer "Edge.Cuts")
-		(uuid "ef0ee1ce-7ed7-4e9c-abb9-dc0926a9353e")
 	)
 	(gr_text "ICSP"
 		(at 164.897 72.06 90)
@@ -3673,6 +3787,17 @@
 				(size 1 1)
 				(thickness 0.15)
 			)
+		)
+	)
+	(group "parts placer"
+		(uuid "61daac89-f07b-4248-8c49-bda73ce35011")
+		(members "00000000-0000-0000-0000-0000551afce5" "00000000-0000-0000-0000-0000551afcfc"
+			"00000000-0000-0000-0000-0000551afd13" "00000000-0000-0000-0000-0000551afd2a"
+			"00000000-0000-0000-0000-0000551afd43" "00000000-0000-0000-0000-0000551afd5a"
+			"00000000-0000-0000-0000-0000551afd71" "24dc01a2-0623-45f0-8a0c-38b379a55f5f"
+			"6e571799-0217-4b63-970e-fdbb6a7139e3" "e37b79bf-98e8-4522-b749-f0e7c6a98bbc"
+			"e635b601-440b-45c8-8f62-fb27461db445" "e9ebf119-598a-41fd-98be-2dbed0b47309"
+			"ee2daf16-2f42-4829-9824-10ca9836b9cd" "f9b2a7ff-484c-463d-8b77-bd1c6dfdf012"
 		)
 	)
 )

@@ -1,0 +1,15 @@
+Ref des,Val,Package,X,Y,Rotation,Side
+BOARD,board,board,0,0,0,top
+J1,Power,PinSocket_1x08_P2.54mm_Vertical,-22.8088,-24.13,90,top
+J2,PWM,PinSocket_1x10_P2.54mm_Vertical,-31.9528,24.13,90,top
+J3,Analog,PinSocket_1x08_P2.54mm_Vertical,0.0512,-24.13,90,top
+J4,PWM,PinSocket_1x08_P2.54mm_Vertical,-5.0288,24.13,90,top
+J5,Analog,PinSocket_1x08_P2.54mm_Vertical,22.9112,-24.13,90,top
+J6,Communication,PinSocket_1x08_P2.54mm_Vertical,17.8312,24.13,90,top
+J7,Digital,PinSocket_2x18_P2.54mm_Vertical,43.2312,-19.05,180,top
+MH1,MountingHole_3.2mm,MountingHole_3.2mm,-35.5088,24.13,0,top
+MH2,MountingHole_3.2mm,MountingHole_3.2mm,-36.7788,-24.13,0,top
+MH3,MountingHole_3.2mm,MountingHole_3.2mm,15.2912,8.8646,0,top
+MH4,MountingHole_3.2mm,MountingHole_3.2mm,15.2912,-19.0754,0,top
+MH5,MountingHole_3.2mm,MountingHole_3.2mm,39.4212,24.13,0,top
+MH6,MountingHole_3.2mm,MountingHole_3.2mm,45.7712,-24.13,0,top
